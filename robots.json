@@ -1,0 +1,74 @@
+{
+  "supermarkets": {
+    "My Market": {
+      "rules": {
+        "allows_search": false,
+        "allows_product_pages": true,
+        "allows_category_pages": false,
+        "allows_filtering": false,
+        "disallowed_paths": [
+          "*/login/*",
+          "*/cart",
+          "*/carts/*",
+          "*/signup",
+          "*/user",
+          "*/privacy",
+          "*/password/reset",
+          "*/wishlist",
+          "*/vivasmart",
+          "*/local-stores",
+          "*/chiliometra-prosforas/*",
+          "*?specs_free_from_el=*",
+          "*?free_from=*",
+          "*?*-and-*",
+          "*?*query=*",
+          "*?*sort=*",
+          "*?*perPage=*",
+          "*?*categories=*",
+          "*?*brand=*",
+          "*?*in_offer=*",
+          "*?*price=*",
+          "*?*diaper_size=*",
+          "*?*diaper_type=*",
+          "*?*specs_*",
+          "*/search*"
+        ]
+      },
+      "sitemaps": [
+        "https://www.mymarket.gr/sitemap.xml"
+      ],
+      "last_checked": "16-3-2025"
+    },
+    "Masoutis": {
+      "rules": {
+        "allows_search": false,
+        "allows_product_pages": true,
+        "allows_category_pages": true,
+        "allows_filtering": false,
+        "disallowed_paths": [
+          "/mainsite/",
+          "/categories/index/search?text"
+        ]
+      },
+      "sitemaps": [
+        "https://www.masoutis.gr/images/sitemapfirst.xml",
+        "https://www.masoutis.gr/images/sitemapthree.xml"
+      ],
+      "last_checked": "16-3-2025"
+    },
+    "Market In": {
+      "rules": {
+        "allows_search": true,
+        "allows_product_pages": true,
+        "allows_category_pages": true,
+        "allows_filtering": true,
+        "disallowed_paths": [
+          "*/orderby=",
+          "*/direction="
+        ]
+      },
+      "sitemaps": [],
+      "last_checked": "16-3-2025"
+    }
+  }
+}
